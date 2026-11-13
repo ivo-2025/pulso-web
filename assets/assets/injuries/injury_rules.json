@@ -1,0 +1,211 @@
+{
+  "version": 1,
+  "notice": "Conservative rules written for this app. They are not medical advice and no clinician has reviewed them: every area is marked reviewed:false. Muscles and exercise names come from the bundled exercise data; which of them to leave out for an injury is the author's judgement, informed by the general guidance listed in sources. A physiotherapist or doctor should review this file before anyone relies on it.",
+  "sources": [
+    {
+      "id": "free-exercise-db",
+      "title": "free-exercise-db",
+      "publisher": "yuhonas and contributors",
+      "url": "https://github.com/yuhonas/free-exercise-db",
+      "licence": "Unlicense (public domain)",
+      "usedFor": "Every exercise's name, primary and secondary muscles, category, level and equipment (assets/exercises/). This is the public data the generator is built on."
+    },
+    {
+      "id": "baptist-shoulder",
+      "title": "What Exercises to Avoid with Shoulder Pain",
+      "publisher": "Baptist Health (blog, Orthopedic Care)",
+      "url": "https://www.baptisthealth.com/blog/orthopedic-care/what-exercises-to-avoid-with-shoulder-pain",
+      "usedFor": "Shoulder: avoid overhead presses, bench dips, pulldowns (especially behind the neck), upright rows, deep push-ups and heavy lateral raises; stop on sharp pain; see an orthopedic provider for a rotator cuff injury."
+    },
+    {
+      "id": "hss-knee",
+      "title": "3 Ways to Work Around Knee Pain",
+      "publisher": "Hospital for Special Surgery (newsroom)",
+      "url": "https://news.hss.edu/3-ways-to-work-around-knee-pain/",
+      "usedFor": "Knee: leave out running and jumping first; squats and lunges when the pain is at the front of the knee; prefer low-impact work."
+    },
+    {
+      "id": "uf-back",
+      "title": "Low Back Pain - Acute",
+      "publisher": "UF Health",
+      "url": "https://ufhealth.org/conditions-and-treatments/low-back-pain-acute",
+      "usedFor": "Lower back: avoid heavy lifting and twisting for the first weeks; stay active; the list of warning signs that mean seeing a doctor promptly."
+    },
+    {
+      "id": "racgp-back",
+      "title": "Exercise for acute lower back pain (HANDI)",
+      "publisher": "The Royal Australian College of General Practitioners",
+      "url": "https://www.racgp.org.au/clinical-resources/clinical-guidelines/handi/handi-interventions/exercise/exercise-for-acute-lower-back-pain",
+      "usedFor": "Lower back: avoid heavy lifting, bending and twisting until the pain improves. Read as a summary only."
+    }
+  ],
+  "shared": {
+    "handSupport": [
+      "push ups", "push up", "pushups", "plank", "mountain climbers", "burpee",
+      "dips", "dip", "bear crawl", "handstand", "inchworm"
+    ],
+    "supportedPosture": [
+      "seated", "lying", "bench", "incline", "decline", "machine", "leverage", "prone", "supine"
+    ],
+    "weightBearing": [
+      "standing", "step ups", "step up", "lunge", "lunges", "squat", "squats", "jump", "jumping",
+      "hop", "hops", "run", "running", "sprint", "skipping", "walk", "walking", "box"
+    ]
+  },
+  "areas": {
+    "neck": {
+      "reviewed": false,
+      "sources": [],
+      "muscles": ["neck", "traps"],
+      "neighbors": ["shoulders"],
+      "avoid": ["shrug", "shrugs", "neck", "overhead", "military", "behind neck", "upright row", "handstand"],
+      "avoidUntilLongTerm": ["pullover", "sit ups", "crunch", "crunches"],
+      "avoidRecent": [],
+      "handSupport": "never",
+      "weightBearing": "never",
+      "supportedPosture": "never",
+      "avoidEquipmentUntilLongTerm": []
+    },
+    "shoulder": {
+      "reviewed": false,
+      "sources": ["baptist-shoulder"],
+      "muscles": ["shoulders"],
+      "neighbors": ["chest", "traps", "triceps", "lats", "biceps"],
+      "avoid": ["overhead", "military", "behind neck", "upright row", "arnold", "dip", "dips", "fly", "flye", "flyes", "pullover", "snatch"],
+      "avoidUntilLongTerm": ["pulldown", "pulldowns", "pull up", "pull ups", "chin up", "pullups", "pullup", "row", "rows", "deadlift", "deadlifts"],
+      "avoidRecent": [],
+      "handSupport": "untilLongTerm",
+      "weightBearing": "never",
+      "supportedPosture": "never",
+      "avoidEquipmentUntilLongTerm": ["barbell"]
+    },
+    "elbow": {
+      "reviewed": false,
+      "sources": [],
+      "muscles": ["biceps", "triceps"],
+      "neighbors": ["forearms", "shoulders"],
+      "avoid": ["skull crusher", "close grip", "dip", "dips"],
+      "avoidUntilLongTerm": ["pull up", "pull ups", "chin up", "pullups", "pullup", "pulldown", "pulldowns"],
+      "avoidRecent": [],
+      "handSupport": "untilLongTerm",
+      "weightBearing": "never",
+      "supportedPosture": "never",
+      "avoidEquipmentUntilLongTerm": []
+    },
+    "wrist": {
+      "reviewed": false,
+      "sources": [],
+      "muscles": ["forearms"],
+      "neighbors": ["biceps", "triceps", "shoulders", "chest", "lats", "middleBack", "traps"],
+      "neighborsUntilLongTerm": true,
+      "avoid": ["wrist curl", "reverse curl", "farmers walk", "grip"],
+      "avoidUntilLongTerm": ["deadlift", "deadlifts", "pullups", "pullup", "chin up"],
+      "avoidRecent": [],
+      "handSupport": "always",
+      "weightBearing": "never",
+      "supportedPosture": "never",
+      "avoidEquipmentUntilLongTerm": ["barbell", "e-z curl bar", "kettlebells"]
+    },
+    "chest": {
+      "reviewed": false,
+      "sources": [],
+      "muscles": ["chest"],
+      "neighbors": ["shoulders", "triceps"],
+      "avoid": ["fly", "flye", "flyes", "dip", "dips", "pullover", "crossover"],
+      "avoidUntilLongTerm": [],
+      "avoidRecent": [],
+      "handSupport": "untilLongTerm",
+      "weightBearing": "never",
+      "supportedPosture": "never",
+      "avoidEquipmentUntilLongTerm": []
+    },
+    "upperBack": {
+      "reviewed": false,
+      "sources": [],
+      "muscles": ["middleBack", "lats", "traps"],
+      "neighbors": ["lowerBack", "biceps", "shoulders"],
+      "avoid": ["row", "rows", "pulldown", "pulldowns", "pull up", "pull ups", "chin up", "pullups", "pullup", "shrug", "shrugs"],
+      "avoidUntilLongTerm": ["deadlift", "deadlifts", "good morning", "overhead", "military"],
+      "avoidRecent": [],
+      "handSupport": "never",
+      "weightBearing": "never",
+      "supportedPosture": "never",
+      "avoidEquipmentUntilLongTerm": []
+    },
+    "lowerBack": {
+      "reviewed": false,
+      "sources": ["uf-back", "racgp-back"],
+      "muscles": ["lowerBack"],
+      "neighbors": ["glutes", "hamstrings", "middleBack"],
+      "avoid": [
+        "deadlift", "deadlifts", "good morning", "good mornings", "bent over", "hyperextension", "hyperextensions",
+        "back extensions", "twist", "twists", "crunch", "crunches", "sit up", "sit ups",
+        "squat", "squats"
+      ],
+      "avoidUntilLongTerm": ["overhead", "military", "row", "rows", "leg raise", "leg raises", "lunge", "lunges"],
+      "avoidRecent": ["leg press"],
+      "handSupport": "never",
+      "weightBearing": "recent",
+      "supportedPosture": "never",
+      "avoidEquipmentUntilLongTerm": []
+    },
+    "hip": {
+      "reviewed": false,
+      "sources": [],
+      "muscles": ["glutes", "adductors", "abductors"],
+      "neighbors": ["quadriceps", "hamstrings", "lowerBack"],
+      "avoid": ["squat", "squats", "lunge", "lunges", "step ups", "step up", "leg raise", "leg raises", "knee raise"],
+      "avoidUntilLongTerm": ["leg press", "deadlift", "deadlifts"],
+      "avoidRecent": [],
+      "handSupport": "never",
+      "weightBearing": "recent",
+      "supportedPosture": "recent",
+      "avoidEquipmentUntilLongTerm": []
+    },
+    "thigh": {
+      "reviewed": false,
+      "sources": [],
+      "muscles": ["quadriceps", "hamstrings"],
+      "neighbors": ["glutes", "adductors", "calves"],
+      "avoid": [
+        "squat", "squats", "lunge", "lunges", "leg extension", "leg extensions", "leg curl", "leg curls",
+        "deadlift", "deadlifts", "good morning", "good mornings", "step ups", "step up", "jump", "sprint", "leg press"
+      ],
+      "avoidUntilLongTerm": [],
+      "avoidRecent": [],
+      "handSupport": "never",
+      "weightBearing": "recent",
+      "supportedPosture": "recent",
+      "avoidEquipmentUntilLongTerm": []
+    },
+    "knee": {
+      "reviewed": false,
+      "sources": ["hss-knee"],
+      "muscles": ["quadriceps", "hamstrings"],
+      "neighbors": ["calves", "glutes", "adductors", "abductors"],
+      "avoid": [
+        "squat", "squats", "lunge", "lunges", "leg extension", "leg extensions", "step ups", "step up",
+        "jump", "jumping", "hop", "hops", "box", "leg press"
+      ],
+      "avoidUntilLongTerm": [],
+      "avoidRecent": [],
+      "handSupport": "never",
+      "weightBearing": "untilLongTerm",
+      "supportedPosture": "recent",
+      "avoidEquipmentUntilLongTerm": []
+    },
+    "lowerLeg": {
+      "reviewed": false,
+      "sources": [],
+      "muscles": ["calves"],
+      "neighbors": ["quadriceps", "hamstrings", "glutes"],
+      "avoid": ["calf", "jump", "hop", "hops", "run", "running", "skipping", "step ups", "step up", "lunge", "lunges", "box"],
+      "avoidUntilLongTerm": [],
+      "avoidRecent": [],
+      "handSupport": "never",
+      "weightBearing": "untilLongTerm",
+      "supportedPosture": "recent",
+      "avoidEquipmentUntilLongTerm": []
+    }
+  }
+}

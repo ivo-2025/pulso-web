@@ -1,0 +1,1254 @@
+[
+  {
+    "id": "full-body-foundations",
+    "name": "Full Body Foundations",
+    "summary": "Three machine-friendly full body days to learn the basics.",
+    "description": "Built for first-timers or anyone returning to the gym. Each session trains every major muscle group with simple, stable machines so you can focus on effort and form. Add 1-2 reps each week until you hit the top of the range on every set, then add the smallest weight jump available.",
+    "level": "beginner",
+    "daysPerWeek": 3,
+    "goal": "General fitness",
+    "equipment": "Machines",
+    "trainings": [
+      {
+        "name": "Full Body A",
+        "notes": "Leave 2-3 reps in reserve on every set.",
+        "exercises": [
+          {
+            "exerciseId": "Leg_Press",
+            "sets": 3,
+            "reps": 10,
+            "warmupSets": 1,
+            "restSec": 120,
+            "notes": "Feet shoulder-width, full controlled range."
+          },
+          {
+            "exerciseId": "Machine_Bench_Press",
+            "sets": 3,
+            "reps": 10,
+            "warmupSets": 1,
+            "restSec": 90,
+            "notes": "Shoulders down and back against the pad."
+          },
+          {
+            "exerciseId": "Wide-Grip_Lat_Pulldown",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 90,
+            "notes": "Pull the bar to your upper chest."
+          },
+          {
+            "exerciseId": "Seated_Leg_Curl",
+            "sets": 2,
+            "reps": 12,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Machine_Shoulder_Military_Press",
+            "sets": 2,
+            "reps": 12,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Plank",
+            "sets": 3,
+            "durationSec": 30,
+            "restSec": 45,
+            "notes": "Squeeze glutes and keep ribs down."
+          }
+        ]
+      },
+      {
+        "name": "Full Body B",
+        "notes": "Aim to beat last week by a rep or two.",
+        "exercises": [
+          {
+            "exerciseId": "RF_V_Squat_Machine",
+            "sets": 3,
+            "reps": 10,
+            "warmupSets": 1,
+            "restSec": 120
+          },
+          {
+            "exerciseId": "Leverage_Iso_Row",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 90,
+            "notes": "Drive elbows back, pause at the squeeze."
+          },
+          {
+            "exerciseId": "Leverage_Incline_Chest_Press",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Leg_Extensions",
+            "sets": 2,
+            "reps": 12,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "RF_Lateral_Raise_Machine",
+            "sets": 3,
+            "reps": 15,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Ab_Crunch_Machine",
+            "sets": 3,
+            "reps": 15,
+            "restSec": 60
+          }
+        ]
+      },
+      {
+        "name": "Full Body C",
+        "notes": "Keep the weights challenging but clean.",
+        "exercises": [
+          {
+            "exerciseId": "RF_Hip_Thrust_Machine",
+            "sets": 3,
+            "reps": 10,
+            "warmupSets": 1,
+            "restSec": 120,
+            "notes": "Chin tucked, ribs down at the top."
+          },
+          {
+            "exerciseId": "RF_Assisted_Pull_Up_Machine",
+            "sets": 3,
+            "reps": 8,
+            "restSec": 90,
+            "notes": "Reduce assistance as you get stronger."
+          },
+          {
+            "exerciseId": "Machine_Bench_Press",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Seated_Cable_Rows",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Standing_Calf_Raises",
+            "sets": 3,
+            "reps": 15,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Machine_Bicep_Curl",
+            "sets": 2,
+            "reps": 12,
+            "restSec": 60,
+            "supersetWithNext": true
+          },
+          {
+            "exerciseId": "Machine_Triceps_Extension",
+            "sets": 2,
+            "reps": 12,
+            "restSec": 60
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "push-pull-legs",
+    "name": "Push / Pull / Legs",
+    "summary": "Six-day split with two rounds of push, pull and legs.",
+    "description": "A classic high-frequency hypertrophy split for intermediate lifters. Every muscle is trained twice a week, with A days focused on heavy compounds and B days on higher-rep volume. Use double progression: when you hit the top of the rep range on all sets, add weight.",
+    "level": "intermediate",
+    "daysPerWeek": 6,
+    "goal": "Hypertrophy",
+    "equipment": "Full gym",
+    "trainings": [
+      {
+        "name": "Push A",
+        "notes": "Heavy chest and shoulders.",
+        "exercises": [
+          {
+            "exerciseId": "Barbell_Bench_Press_-_Medium_Grip",
+            "sets": 4,
+            "reps": 6,
+            "warmupSets": 2,
+            "restSec": 150,
+            "notes": "Retract shoulder blades and drive feet into the floor."
+          },
+          {
+            "exerciseId": "Standing_Military_Press",
+            "sets": 3,
+            "reps": 8,
+            "warmupSets": 1,
+            "restSec": 120
+          },
+          {
+            "exerciseId": "Incline_Dumbbell_Press",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Side_Lateral_Raise",
+            "sets": 3,
+            "reps": 15,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Triceps_Pushdown",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60
+          }
+        ]
+      },
+      {
+        "name": "Pull A",
+        "notes": "Heavy rows and pulls.",
+        "exercises": [
+          {
+            "exerciseId": "Barbell_Deadlift",
+            "sets": 3,
+            "reps": 5,
+            "warmupSets": 2,
+            "restSec": 180,
+            "notes": "Keep the bar in contact with your legs."
+          },
+          {
+            "exerciseId": "Pullups",
+            "sets": 4,
+            "reps": 8,
+            "restSec": 120,
+            "notes": "Add weight once you reach 10 clean reps."
+          },
+          {
+            "exerciseId": "Bent_Over_Barbell_Row",
+            "sets": 3,
+            "reps": 8,
+            "warmupSets": 1,
+            "restSec": 120
+          },
+          {
+            "exerciseId": "Face_Pull",
+            "sets": 3,
+            "reps": 15,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "EZ-Bar_Curl",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 60
+          }
+        ]
+      },
+      {
+        "name": "Legs A",
+        "notes": "Squat-focused leg day.",
+        "exercises": [
+          {
+            "exerciseId": "Barbell_Full_Squat",
+            "sets": 4,
+            "reps": 6,
+            "warmupSets": 2,
+            "restSec": 180,
+            "notes": "Brace hard and hit depth every rep."
+          },
+          {
+            "exerciseId": "Romanian_Deadlift",
+            "sets": 3,
+            "reps": 8,
+            "warmupSets": 1,
+            "restSec": 120
+          },
+          {
+            "exerciseId": "Leg_Press",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Lying_Leg_Curls",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Standing_Calf_Raises",
+            "sets": 4,
+            "reps": 12,
+            "restSec": 60
+          }
+        ]
+      },
+      {
+        "name": "Push B",
+        "notes": "Volume-focused push day.",
+        "exercises": [
+          {
+            "exerciseId": "Incline_Dumbbell_Press",
+            "sets": 4,
+            "reps": 8,
+            "warmupSets": 1,
+            "restSec": 120
+          },
+          {
+            "exerciseId": "Dumbbell_Shoulder_Press",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Cable_Crossover",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "RF_Cable_Lateral_Raise",
+            "sets": 3,
+            "reps": 15,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Dips_-_Triceps_Version",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Triceps_Overhead_Extension_with_Rope",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60
+          }
+        ]
+      },
+      {
+        "name": "Pull B",
+        "notes": "Back thickness and arms.",
+        "exercises": [
+          {
+            "exerciseId": "T-Bar_Row_with_Handle",
+            "sets": 4,
+            "reps": 8,
+            "warmupSets": 1,
+            "restSec": 120
+          },
+          {
+            "exerciseId": "Wide-Grip_Lat_Pulldown",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "RF_Single_Arm_Cable_Row",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Reverse_Flyes",
+            "sets": 3,
+            "reps": 15,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Hammer_Curls",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Dumbbell_Shrug",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60
+          }
+        ]
+      },
+      {
+        "name": "Legs B",
+        "notes": "Quad, glute and hamstring volume.",
+        "exercises": [
+          {
+            "exerciseId": "Front_Barbell_Squat",
+            "sets": 3,
+            "reps": 8,
+            "warmupSets": 2,
+            "restSec": 150
+          },
+          {
+            "exerciseId": "Barbell_Hip_Thrust",
+            "sets": 3,
+            "reps": 10,
+            "warmupSets": 1,
+            "restSec": 120
+          },
+          {
+            "exerciseId": "RF_Bulgarian_Split_Squat",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Leg_Extensions",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Seated_Leg_Curl",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Seated_Calf_Raise",
+            "sets": 4,
+            "reps": 15,
+            "restSec": 60
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "upper-lower",
+    "name": "Upper / Lower",
+    "summary": "Four days: two upper and two lower sessions each week.",
+    "description": "A balanced four-day split that trains each muscle twice weekly with plenty of recovery. Good for intermediate lifters who want size and strength without living in the gym. Progress the first lift of each day by small weight jumps and the accessories by reps.",
+    "level": "intermediate",
+    "daysPerWeek": 4,
+    "goal": "Hypertrophy",
+    "equipment": "Full gym",
+    "trainings": [
+      {
+        "name": "Upper 1 (Strength)",
+        "notes": "Lower reps, longer rests.",
+        "exercises": [
+          {
+            "exerciseId": "Barbell_Bench_Press_-_Medium_Grip",
+            "sets": 4,
+            "reps": 6,
+            "warmupSets": 2,
+            "restSec": 150
+          },
+          {
+            "exerciseId": "Bent_Over_Barbell_Row",
+            "sets": 4,
+            "reps": 6,
+            "warmupSets": 1,
+            "restSec": 150
+          },
+          {
+            "exerciseId": "Standing_Military_Press",
+            "sets": 3,
+            "reps": 8,
+            "warmupSets": 1,
+            "restSec": 120
+          },
+          {
+            "exerciseId": "Wide-Grip_Lat_Pulldown",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "EZ-Bar_Curl",
+            "sets": 2,
+            "reps": 10,
+            "restSec": 60,
+            "supersetWithNext": true
+          },
+          {
+            "exerciseId": "EZ-Bar_Skullcrusher",
+            "sets": 2,
+            "reps": 10,
+            "restSec": 60
+          }
+        ]
+      },
+      {
+        "name": "Lower 1 (Strength)",
+        "notes": "Squat heavy, then build hamstrings.",
+        "exercises": [
+          {
+            "exerciseId": "Barbell_Full_Squat",
+            "sets": 4,
+            "reps": 6,
+            "warmupSets": 2,
+            "restSec": 180
+          },
+          {
+            "exerciseId": "Romanian_Deadlift",
+            "sets": 3,
+            "reps": 8,
+            "warmupSets": 1,
+            "restSec": 150
+          },
+          {
+            "exerciseId": "Leg_Press",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Lying_Leg_Curls",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Standing_Calf_Raises",
+            "sets": 4,
+            "reps": 10,
+            "restSec": 60
+          }
+        ]
+      },
+      {
+        "name": "Upper 2 (Volume)",
+        "notes": "Moderate reps and a bit more arms.",
+        "exercises": [
+          {
+            "exerciseId": "Incline_Dumbbell_Press",
+            "sets": 4,
+            "reps": 10,
+            "warmupSets": 1,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Seated_Cable_Rows",
+            "sets": 4,
+            "reps": 10,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Dumbbell_Shoulder_Press",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Cable_Crossover",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Side_Lateral_Raise",
+            "sets": 3,
+            "reps": 15,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Hammer_Curls",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60,
+            "supersetWithNext": true
+          },
+          {
+            "exerciseId": "Triceps_Pushdown",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60
+          }
+        ]
+      },
+      {
+        "name": "Lower 2 (Volume)",
+        "notes": "Glutes, quads and hamstrings.",
+        "exercises": [
+          {
+            "exerciseId": "Front_Barbell_Squat",
+            "sets": 3,
+            "reps": 8,
+            "warmupSets": 2,
+            "restSec": 150
+          },
+          {
+            "exerciseId": "Barbell_Hip_Thrust",
+            "sets": 3,
+            "reps": 10,
+            "warmupSets": 1,
+            "restSec": 120
+          },
+          {
+            "exerciseId": "RF_Bulgarian_Split_Squat",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Leg_Extensions",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Seated_Leg_Curl",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Seated_Calf_Raise",
+            "sets": 4,
+            "reps": 15,
+            "restSec": 60
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "classic-5x5",
+    "name": "Classic 5x5",
+    "summary": "Alternating A/B barbell strength workouts, three days a week.",
+    "description": "The tried-and-tested linear strength plan: three compound lifts per session, five sets of five. Alternate A and B workouts and add the smallest plate increment whenever you complete all 25 reps. If you stall three sessions in a row, drop the weight by 10% and build back up.",
+    "level": "beginner",
+    "daysPerWeek": 3,
+    "goal": "Strength",
+    "equipment": "Full gym",
+    "trainings": [
+      {
+        "name": "Workout A",
+        "notes": "Squat, bench, row.",
+        "exercises": [
+          {
+            "exerciseId": "Barbell_Full_Squat",
+            "sets": 5,
+            "reps": 5,
+            "warmupSets": 2,
+            "restSec": 180,
+            "notes": "Add 2.5 kg when all five sets are done."
+          },
+          {
+            "exerciseId": "Barbell_Bench_Press_-_Medium_Grip",
+            "sets": 5,
+            "reps": 5,
+            "warmupSets": 2,
+            "restSec": 180
+          },
+          {
+            "exerciseId": "Bent_Over_Barbell_Row",
+            "sets": 5,
+            "reps": 5,
+            "warmupSets": 1,
+            "restSec": 150,
+            "notes": "Row to the lower ribs, flat back."
+          }
+        ]
+      },
+      {
+        "name": "Workout B",
+        "notes": "Squat, press, deadlift.",
+        "exercises": [
+          {
+            "exerciseId": "Barbell_Full_Squat",
+            "sets": 5,
+            "reps": 5,
+            "warmupSets": 2,
+            "restSec": 180
+          },
+          {
+            "exerciseId": "Standing_Military_Press",
+            "sets": 5,
+            "reps": 5,
+            "warmupSets": 2,
+            "restSec": 150
+          },
+          {
+            "exerciseId": "Barbell_Deadlift",
+            "sets": 1,
+            "reps": 5,
+            "warmupSets": 2,
+            "restSec": 240,
+            "notes": "One heavy set of five. Reset each rep."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "machine-circuit",
+    "name": "Machine Circuit",
+    "summary": "All-machine session with supersets to save time.",
+    "description": "A time-efficient routine for beginners who like machines. Exercises are paired as supersets so you rest less and keep the workout under an hour. Choose a weight that feels challenging at the last two reps and add a little each week.",
+    "level": "beginner",
+    "daysPerWeek": 3,
+    "goal": "Fat loss",
+    "equipment": "Machines",
+    "trainings": [
+      {
+        "name": "Circuit A",
+        "notes": "Move between paired machines with minimal rest.",
+        "exercises": [
+          {
+            "exerciseId": "Leg_Press",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 90,
+            "supersetWithNext": true
+          },
+          {
+            "exerciseId": "Leverage_Iso_Row",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Machine_Bench_Press",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60,
+            "supersetWithNext": true
+          },
+          {
+            "exerciseId": "Seated_Leg_Curl",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Machine_Shoulder_Military_Press",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60,
+            "supersetWithNext": true
+          },
+          {
+            "exerciseId": "Ab_Crunch_Machine",
+            "sets": 3,
+            "reps": 15,
+            "restSec": 60
+          }
+        ]
+      },
+      {
+        "name": "Circuit B",
+        "notes": "Keep your pace steady.",
+        "exercises": [
+          {
+            "exerciseId": "RF_V_Squat_Machine",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 90,
+            "supersetWithNext": true
+          },
+          {
+            "exerciseId": "Wide-Grip_Lat_Pulldown",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Leverage_Incline_Chest_Press",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60,
+            "supersetWithNext": true
+          },
+          {
+            "exerciseId": "Leg_Extensions",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "RF_Lateral_Raise_Machine",
+            "sets": 3,
+            "reps": 15,
+            "restSec": 45,
+            "supersetWithNext": true
+          },
+          {
+            "exerciseId": "Reverse_Machine_Flyes",
+            "sets": 3,
+            "reps": 15,
+            "restSec": 45
+          },
+          {
+            "exerciseId": "Standing_Calf_Raises",
+            "sets": 3,
+            "reps": 15,
+            "restSec": 45
+          }
+        ]
+      },
+      {
+        "name": "Cardio Finisher",
+        "notes": "Easy-to-moderate cardio to finish the week.",
+        "exercises": [
+          {
+            "exerciseId": "Elliptical_Trainer",
+            "sets": 1,
+            "durationSec": 900,
+            "restSec": 0
+          },
+          {
+            "exerciseId": "Recumbent_Bike",
+            "sets": 1,
+            "durationSec": 600,
+            "restSec": 0
+          },
+          {
+            "exerciseId": "Walking_Treadmill",
+            "sets": 1,
+            "durationSec": 600,
+            "restSec": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dumbbell-only",
+    "name": "Dumbbell Only",
+    "summary": "Three full body days needing just dumbbells and a bench.",
+    "description": "Perfect for a home setup or a busy gym floor. Each day covers legs, push and pull using only dumbbells and a bench. Progress by adding reps first, then moving up to the next pair of dumbbells.",
+    "level": "beginner",
+    "daysPerWeek": 3,
+    "goal": "General fitness",
+    "equipment": "Dumbbells & bench",
+    "trainings": [
+      {
+        "name": "Day 1",
+        "notes": "Squat and press focus.",
+        "exercises": [
+          {
+            "exerciseId": "Goblet_Squat",
+            "sets": 3,
+            "reps": 10,
+            "warmupSets": 1,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Dumbbell_Bench_Press",
+            "sets": 3,
+            "reps": 10,
+            "warmupSets": 1,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "One-Arm_Dumbbell_Row",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Dumbbell_Shoulder_Press",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Dumbbell_Bicep_Curl",
+            "sets": 2,
+            "reps": 12,
+            "restSec": 60,
+            "supersetWithNext": true
+          },
+          {
+            "exerciseId": "Tricep_Dumbbell_Kickback",
+            "sets": 2,
+            "reps": 12,
+            "restSec": 60
+          }
+        ]
+      },
+      {
+        "name": "Day 2",
+        "notes": "Hinge and pull focus.",
+        "exercises": [
+          {
+            "exerciseId": "RF_Dumbbell_Romanian_Deadlift",
+            "sets": 3,
+            "reps": 10,
+            "warmupSets": 1,
+            "restSec": 120
+          },
+          {
+            "exerciseId": "Incline_Dumbbell_Press",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Bent_Over_Two-Dumbbell_Row",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Side_Lateral_Raise",
+            "sets": 3,
+            "reps": 15,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Dumbbell_Lunges",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Standing_Dumbbell_Calf_Raise",
+            "sets": 3,
+            "reps": 15,
+            "restSec": 60
+          }
+        ]
+      },
+      {
+        "name": "Day 3",
+        "notes": "Unilateral work and arms.",
+        "exercises": [
+          {
+            "exerciseId": "RF_Bulgarian_Split_Squat",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Dumbbell_Flyes",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "One-Arm_Dumbbell_Row",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Arnold_Dumbbell_Press",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "RF_Dumbbell_Hip_Thrust",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Hammer_Curls",
+            "sets": 2,
+            "reps": 12,
+            "restSec": 60,
+            "supersetWithNext": true
+          },
+          {
+            "exerciseId": "Standing_Dumbbell_Triceps_Extension",
+            "sets": 2,
+            "reps": 12,
+            "restSec": 60
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "glutes-and-legs",
+    "name": "Glutes & Legs",
+    "summary": "Lower-body hypertrophy with a glute emphasis.",
+    "description": "Three lower-body focused days that prioritise glute and quad growth, with a light upper session to keep balance. Use full range of motion, controlled tempos and progress by adding reps then weight each week.",
+    "level": "intermediate",
+    "daysPerWeek": 4,
+    "goal": "Hypertrophy",
+    "equipment": "Full gym",
+    "trainings": [
+      {
+        "name": "Glute Focus",
+        "notes": "Heavy hip extension work.",
+        "exercises": [
+          {
+            "exerciseId": "Barbell_Hip_Thrust",
+            "sets": 4,
+            "reps": 8,
+            "warmupSets": 2,
+            "restSec": 150,
+            "notes": "Pause for a second at the top."
+          },
+          {
+            "exerciseId": "Romanian_Deadlift",
+            "sets": 3,
+            "reps": 8,
+            "warmupSets": 1,
+            "restSec": 120
+          },
+          {
+            "exerciseId": "RF_Bulgarian_Split_Squat",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "RF_Glute_Kickback_Machine",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Thigh_Abductor",
+            "sets": 3,
+            "reps": 15,
+            "restSec": 60
+          }
+        ]
+      },
+      {
+        "name": "Quad Focus",
+        "notes": "Squat and press patterns.",
+        "exercises": [
+          {
+            "exerciseId": "Barbell_Full_Squat",
+            "sets": 4,
+            "reps": 8,
+            "warmupSets": 2,
+            "restSec": 150
+          },
+          {
+            "exerciseId": "Leg_Press",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Hack_Squat",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Leg_Extensions",
+            "sets": 3,
+            "reps": 15,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Standing_Calf_Raises",
+            "sets": 4,
+            "reps": 12,
+            "restSec": 60
+          }
+        ]
+      },
+      {
+        "name": "Upper Maintenance",
+        "notes": "Short and simple upper session.",
+        "exercises": [
+          {
+            "exerciseId": "Dumbbell_Bench_Press",
+            "sets": 3,
+            "reps": 10,
+            "warmupSets": 1,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Wide-Grip_Lat_Pulldown",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Dumbbell_Shoulder_Press",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Seated_Cable_Rows",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Side_Lateral_Raise",
+            "sets": 3,
+            "reps": 15,
+            "restSec": 60
+          }
+        ]
+      },
+      {
+        "name": "Glute & Hamstring",
+        "notes": "Posterior chain finisher.",
+        "exercises": [
+          {
+            "exerciseId": "RF_Smith_Machine_Hip_Thrust",
+            "sets": 4,
+            "reps": 10,
+            "warmupSets": 1,
+            "restSec": 120
+          },
+          {
+            "exerciseId": "Lying_Leg_Curls",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Cable_Hip_Adduction",
+            "sets": 3,
+            "reps": 15,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Pull_Through",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 90
+          },
+          {
+            "exerciseId": "Thigh_Adductor",
+            "sets": 3,
+            "reps": 15,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Seated_Calf_Raise",
+            "sets": 3,
+            "reps": 15,
+            "restSec": 60
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bodyweight-and-core",
+    "name": "Bodyweight & Core",
+    "summary": "No equipment needed, with timed core holds.",
+    "description": "Train anywhere with just your bodyweight. Each day mixes pushing, pulling or leg work with timed core holds that build stability. Progress by adding reps, slowing the tempo or lengthening the holds by 5 seconds each week.",
+    "level": "beginner",
+    "daysPerWeek": 3,
+    "goal": "General fitness",
+    "equipment": "Bodyweight",
+    "trainings": [
+      {
+        "name": "Day 1: Push & Core",
+        "notes": "Take clean reps, rest as needed.",
+        "exercises": [
+          {
+            "exerciseId": "Pushups",
+            "sets": 4,
+            "reps": 12,
+            "restSec": 60,
+            "notes": "Body in a straight line."
+          },
+          {
+            "exerciseId": "Bodyweight_Squat",
+            "sets": 3,
+            "reps": 15,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Bench_Dips",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Plank",
+            "sets": 3,
+            "durationSec": 40,
+            "restSec": 45
+          },
+          {
+            "exerciseId": "RF_Hollow_Body_Hold",
+            "sets": 3,
+            "durationSec": 20,
+            "restSec": 45
+          }
+        ]
+      },
+      {
+        "name": "Day 2: Pull & Legs",
+        "notes": "Use a sturdy table or bar for rows.",
+        "exercises": [
+          {
+            "exerciseId": "Inverted_Row",
+            "sets": 4,
+            "reps": 10,
+            "restSec": 75
+          },
+          {
+            "exerciseId": "Dumbbell_Lunges",
+            "sets": 3,
+            "reps": 10,
+            "restSec": 60,
+            "notes": "Use bodyweight only."
+          },
+          {
+            "exerciseId": "Single_Leg_Glute_Bridge",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Superman",
+            "sets": 3,
+            "reps": 12,
+            "restSec": 45
+          },
+          {
+            "exerciseId": "RF_Bird_Dog",
+            "sets": 3,
+            "durationSec": 30,
+            "restSec": 30
+          }
+        ]
+      },
+      {
+        "name": "Day 3: Full Body",
+        "notes": "Finish strong with holds.",
+        "exercises": [
+          {
+            "exerciseId": "Incline_Push-Up",
+            "sets": 3,
+            "reps": 15,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "RF_Wall_Sit",
+            "sets": 3,
+            "durationSec": 40,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Mountain_Climbers",
+            "sets": 3,
+            "reps": 20,
+            "restSec": 45
+          },
+          {
+            "exerciseId": "Side_Bridge",
+            "sets": 3,
+            "durationSec": 30,
+            "restSec": 30
+          },
+          {
+            "exerciseId": "RF_Dead_Hang",
+            "sets": 3,
+            "durationSec": 25,
+            "restSec": 60
+          },
+          {
+            "exerciseId": "Plank",
+            "sets": 2,
+            "durationSec": 45,
+            "restSec": 45
+          }
+        ]
+      }
+    ]
+  }
+]
